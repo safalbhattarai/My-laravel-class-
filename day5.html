@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .hero {
+            background: #f0f9ff;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .flex {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .child1,
+        .child2 {
+            width: 50%;
+        }
+
+        .child2 img {
+            width: 100%;
+        }
+
+        .child1 strong {
+            color: #006f80;
+            font-size: 24px;
+        }
+
+        .child1 span {
+            color: #006f80;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin: 20px 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 28px;
+            line-height: 28px;
+        }
+
+        .hero .child1 a {
+            background-color: #006f80;
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 30px;
+        }
+
+        .line {
+            height: 1px;
+            background-color: #006f80;
+            width: 100px;
+        }
+
+        /* .child2 img:hover{
+            transform: translateY(-10px);
+        } */
+
+        /* .child2 {
+            animation: animate 3s infinite linear;
+        } */
+
+        /* @keyframes animate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        } */
+
+        /* @keyframes animate {
+            0% {
+                transform: translateY(-10px);
+            }
+
+            50% {
+                transform: translateY(10px);
+            }
+
+            100% {
+                transform: translateY(-10px);
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container flex">
+            <div class="child1">
+                <div class="flex">
+                    <div class="line"></div>
+                    <strong>Who We Are</strong>
+                    <div class="line"></div>
+                </div>
+                <h1>Your partner in <span>building digital success</span></h1>
+                <p>
+                    We help businesses bring their ideas to life with high-performing websites, mobile apps, and modern
+                    designs. Our team focuses on delivering solutions that not only look great but also help you grow,
+                    attract customers, and achieve your goals.
+                </p>
+                <a href="">
+                    Start Your Project
+                </a>
+            </div>
+
+
+            <div class="child2">
+                <a href="">
+                    <img src="https://sudamhub.com/images/avengersteam.webp" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
